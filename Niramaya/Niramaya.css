@@ -1,0 +1,88 @@
+
+
+body {
+  overflow-x:hidden;
+  margin: 10vw;
+  margin-top:40px;
+  font-family: Roboto Slab;
+  color:rgba(0,0,0,0.8);
+}
+
+  
+.body{
+  font-family: Lato;
+  font-size:24px;	
+  opacity:0.7;
+  line-height:35px;
+  margin:20%;
+  margin-top:5vh;
+  margin-bottom:5vh;
+}
+.content{
+  margin:10%;
+  margin-top:0;
+}
+
+.photo{
+  margin-bottom:10vh;
+  width:100%;
+  border-radius:10px;
+  box-shadow:rgba(0,0,0,0.1) 0px 10px 40px;
+
+}
+.title{
+  margin:20%;
+  margin-bottom:0;
+  margin-top:30vh;
+  font-weight:bold;
+  font-size:70px;
+}
+
+.parent{
+  position:relative;
+}
+
+#intro{
+  margin-top:0;
+}
+
+
+#guide{
+  margin:5%;
+}
+
+#next{
+  width:100px;
+  height:100px;
+  background-color:black;
+}
+
+#hero{
+  width:100%;
+}
+
+}
+
+@media only screen and (max-width: 1000px) {
+.content{
+  margin:0;
+}
+.photo{
+  box-shadow:rgba(0,0,0,0.1) 0px 10px 20px;
+}
+.body{  
+  font-size:16px;
+  margin:0;
+  margin-top:5vh;
+  margin-bottom:100px;}
+.title{
+  margin:0;
+  font-size:40px;
+  margin-top:10vh;  
+}
+}
+
+#z{
+  filter:saturate(0);
+}
+

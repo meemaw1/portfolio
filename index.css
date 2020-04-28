@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  overflow-x:hidden;
+  margin-top:40px;
+  font-family: Roboto Slab;
+  color:rgba(0,0,0,0.8);
+}
+ 
+.body{
+  font-family: Lato;
+  font-size:24px; 
+  opacity:0.7;
+  line-height:35px;
+  margin:10%;
+  margin-top:5vh;
+  margin-bottom:10vh;
+}
+#tagline{
+  margin:30%;
+  margin-top:0;
+  margin-bottom:10%;
+  text-align:center;
+}
+
+.content{
+  margin-top:0  ;
+}
+
+.title{
+  text-align: center;
+  margin-top:10vh;
+  font-weight:bold;
+  font-size:70px;
+}
+
+#guide{
+  margin:5%;
+}
+
+#hero{
+  width:30vh;
+  margin-top:20vh;
+  margin-left:50%;
+  transform:translateX(-50%);
+  border-radius:100%;
+}
+
+@media only screen and (max-width: 1200px) {
+.content{
+  margin:0;
+}
+.title{
+  margin-top:10vh;  
+}
+}
+
+
+#intern{
+  left:0;
+  width:100%;
+
+}
+
+#wrap{
+  padding:20%;
+  padding-top:20vh;
+  padding-bottom:20vh;
+}
+
+#About{ 
+  background-color:#6cc7a5 ;
+  color:white;
+}
+
+#contact{
+  color:black;
+}
+
+#talk{
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 15vw;
+}
+
+.column img {
+  margin-top:10vh;
+  vertical-align: middle;
+  border-radius:10px;
+  transition-duration: 0.2s;
+}
+
+.column img:hover{
+  transform:scale(1.1);
+  box-shadow:rgba(0,0,0,0.2) 0px 30px 80px;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .body{
+  margin:0%;
+  margin-top:5vh;
+  margin-bottom:10vh;
+}
+  #tagline{
+    margin-top:0;
+    margin-bottom:10%;
+    text-align:center;
+  }
+  #wrap{
+  padding:10%;
+  padding-top:20vh;
+  padding-bottom:20vh;
+}
+#guide{
+  margin:5%;
+}
+
+
+}
+
+@media (max-width: 1000px) {
+  .title{
+    font-size:40px;
+  }
+  .body{
+    font-size:16px;
+  }
+}
+
+.links{
+  width:100%;
+  text-align:center;
+
+}
+.links img{
+  margin:2vh;
+  margin-top:0;margin-bottom:0;
+  transition-duration: 0.2s;
+}
+
+.links img:hover{
+  transform:scale(1.1); 
+}
+
+a{
+  text-decoration: none;
+  color:orange;
+}
